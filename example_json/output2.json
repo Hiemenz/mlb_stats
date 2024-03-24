@@ -1,0 +1,1248 @@
+{
+    "copyright": "Copyright 2024 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
+    "totalItems": 16,
+    "totalEvents": 0,
+    "totalGames": 16,
+    "totalGamesInProgress": 0,
+    "dates": [
+        {
+            "date": "2024-02-29",
+            "totalItems": 16,
+            "totalEvents": 0,
+            "totalGames": 16,
+            "totalGamesInProgress": 0,
+            "games": [
+                {
+                    "gamePk": 748182,
+                    "gameGuid": "19c22c1c-cefc-4314-8c96-20080f16d37c",
+                    "link": "/api/v1.1/game/748182/feed/live",
+                    "gameType": "S",
+                    "season": "2024",
+                    "gameDate": "2024-02-29T18:05:00Z",
+                    "officialDate": "2024-02-29",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "F",
+                        "detailedState": "Final",
+                        "statusCode": "F",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "F"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 3,
+                                "losses": 3,
+                                "pct": ".500"
+                            },
+                            "score": 2,
+                            "team": {
+                                "id": 116,
+                                "name": "Detroit Tigers",
+                                "link": "/api/v1/teams/116"
+                            },
+                            "isWinner": false,
+                            "splitSquad": false
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 4,
+                                "losses": 2,
+                                "pct": ".667"
+                            },
+                            "score": 5,
+                            "team": {
+                                "id": 111,
+                                "name": "Boston Red Sox",
+                                "link": "/api/v1/teams/111"
+                            },
+                            "isWinner": true,
+                            "splitSquad": false,
+                            "seriesNumber": 7
+                        }
+                    },
+                    "venue": {
+                        "id": 4309,
+                        "name": "JetBlue Park",
+                        "link": "/api/v1/venues/4309"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/748182/content"
+                    },
+                    "isTie": false,
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "N",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-748182-2024-02-29",
+                    "seasonDisplay": "2024",
+                    "dayNight": "day",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 1,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Spring Training",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 748179,
+                    "gameGuid": "937f731d-61ce-4ea2-a0be-8c09ef78c894",
+                    "link": "/api/v1.1/game/748179/feed/live",
+                    "gameType": "S",
+                    "season": "2024",
+                    "gameDate": "2024-02-29T18:05:00Z",
+                    "officialDate": "2024-02-29",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "F",
+                        "detailedState": "Final",
+                        "statusCode": "F",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "F"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 1,
+                                "losses": 5,
+                                "pct": ".167"
+                            },
+                            "score": 8,
+                            "team": {
+                                "id": 134,
+                                "name": "Pittsburgh Pirates",
+                                "link": "/api/v1/teams/134"
+                            },
+                            "isWinner": false,
+                            "splitSquad": false,
+                            "seriesNumber": 6
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 6,
+                                "losses": 1,
+                                "pct": ".857"
+                            },
+                            "score": 9,
+                            "team": {
+                                "id": 110,
+                                "name": "Baltimore Orioles",
+                                "link": "/api/v1/teams/110"
+                            },
+                            "isWinner": true,
+                            "splitSquad": false,
+                            "seriesNumber": 7
+                        }
+                    },
+                    "venue": {
+                        "id": 2508,
+                        "name": "Ed Smith Stadium",
+                        "link": "/api/v1/venues/2508"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/748179/content"
+                    },
+                    "isTie": false,
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "N",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-748179-2024-02-29",
+                    "seasonDisplay": "2024",
+                    "dayNight": "day",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 1,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Spring Training",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 748180,
+                    "gameGuid": "ac9f641d-2b3f-4fb3-a8c6-791a3b9f42ac",
+                    "link": "/api/v1.1/game/748180/feed/live",
+                    "gameType": "S",
+                    "season": "2024",
+                    "gameDate": "2024-02-29T18:05:00Z",
+                    "officialDate": "2024-02-29",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "F",
+                        "detailedState": "Final",
+                        "statusCode": "F",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "F"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 4,
+                                "losses": 2,
+                                "pct": ".667"
+                            },
+                            "score": 3,
+                            "team": {
+                                "id": 120,
+                                "name": "Washington Nationals",
+                                "link": "/api/v1/teams/120"
+                            },
+                            "isWinner": true,
+                            "splitSquad": false,
+                            "seriesNumber": 6
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 2,
+                                "losses": 3,
+                                "pct": ".400"
+                            },
+                            "score": 1,
+                            "team": {
+                                "id": 138,
+                                "name": "St. Louis Cardinals",
+                                "link": "/api/v1/teams/138"
+                            },
+                            "isWinner": false,
+                            "splitSquad": false,
+                            "seriesNumber": 7
+                        }
+                    },
+                    "venue": {
+                        "id": 2520,
+                        "name": "Roger Dean Chevrolet Stadium",
+                        "link": "/api/v1/venues/2520"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/748180/content"
+                    },
+                    "isTie": false,
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "E",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-748180-2024-02-29",
+                    "seasonDisplay": "2024",
+                    "dayNight": "day",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 1,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Spring Training",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 748175,
+                    "gameGuid": "686bad4e-f7fd-49fe-8e82-8b8209f5c937",
+                    "link": "/api/v1.1/game/748175/feed/live",
+                    "gameType": "S",
+                    "season": "2024",
+                    "gameDate": "2024-02-29T18:05:00Z",
+                    "officialDate": "2024-02-29",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "F",
+                        "detailedState": "Final",
+                        "statusCode": "F",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "F"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 3,
+                                "losses": 3,
+                                "pct": ".500"
+                            },
+                            "score": 12,
+                            "team": {
+                                "id": 144,
+                                "name": "Atlanta Braves",
+                                "link": "/api/v1/teams/144"
+                            },
+                            "isWinner": true,
+                            "splitSquad": true,
+                            "seriesNumber": 6
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 2,
+                                "losses": 3,
+                                "pct": ".400"
+                            },
+                            "score": 9,
+                            "team": {
+                                "id": 139,
+                                "name": "Tampa Bay Rays",
+                                "link": "/api/v1/teams/139"
+                            },
+                            "isWinner": false,
+                            "splitSquad": false,
+                            "seriesNumber": 6
+                        }
+                    },
+                    "venue": {
+                        "id": 2534,
+                        "name": "Charlotte Sports Park",
+                        "link": "/api/v1/venues/2534"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/748175/content"
+                    },
+                    "isTie": false,
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "N",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-748175-2024-02-29",
+                    "seasonDisplay": "2024",
+                    "dayNight": "day",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 1,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Spring Training",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 748178,
+                    "gameGuid": "a5690de9-1a3f-40bc-9d4f-d8facd033d42",
+                    "link": "/api/v1.1/game/748178/feed/live",
+                    "gameType": "S",
+                    "season": "2024",
+                    "gameDate": "2024-02-29T18:05:00Z",
+                    "officialDate": "2024-02-29",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "F",
+                        "detailedState": "Final",
+                        "statusCode": "F",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "F"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 1,
+                                "losses": 4,
+                                "pct": ".200"
+                            },
+                            "score": 0,
+                            "team": {
+                                "id": 142,
+                                "name": "Minnesota Twins",
+                                "link": "/api/v1/teams/142"
+                            },
+                            "isWinner": false,
+                            "splitSquad": false,
+                            "seriesNumber": 6
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 3,
+                                "losses": 3,
+                                "pct": ".500"
+                            },
+                            "score": 5,
+                            "team": {
+                                "id": 144,
+                                "name": "Atlanta Braves",
+                                "link": "/api/v1/teams/144"
+                            },
+                            "isWinner": true,
+                            "splitSquad": true,
+                            "seriesNumber": 7
+                        }
+                    },
+                    "venue": {
+                        "id": 5380,
+                        "name": "CoolToday Park",
+                        "link": "/api/v1/venues/5380"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/748178/content"
+                    },
+                    "isTie": false,
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "N",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-748178-2024-02-29",
+                    "seasonDisplay": "2024",
+                    "dayNight": "day",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 1,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Spring Training",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 748176,
+                    "gameGuid": "83ccf12a-dc94-4613-a084-7c3fc013fa2a",
+                    "link": "/api/v1.1/game/748176/feed/live",
+                    "gameType": "S",
+                    "season": "2024",
+                    "gameDate": "2024-02-29T18:07:00Z",
+                    "officialDate": "2024-02-29",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "F",
+                        "detailedState": "Final",
+                        "statusCode": "F",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "F"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 3,
+                                "losses": 1,
+                                "pct": ".750"
+                            },
+                            "score": 5,
+                            "team": {
+                                "id": 143,
+                                "name": "Philadelphia Phillies",
+                                "link": "/api/v1/teams/143"
+                            },
+                            "isWinner": true,
+                            "splitSquad": false
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 2,
+                                "losses": 4,
+                                "pct": ".333"
+                            },
+                            "score": 0,
+                            "team": {
+                                "id": 141,
+                                "name": "Toronto Blue Jays",
+                                "link": "/api/v1/teams/141"
+                            },
+                            "isWinner": false,
+                            "splitSquad": false,
+                            "seriesNumber": 6
+                        }
+                    },
+                    "venue": {
+                        "id": 2536,
+                        "name": "TD Ballpark",
+                        "link": "/api/v1/venues/2536"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/748176/content"
+                    },
+                    "isTie": false,
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "E",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-748176-2024-02-29",
+                    "seasonDisplay": "2024",
+                    "dayNight": "day",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 1,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Spring Training",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 748174,
+                    "gameGuid": "b8f4ed7d-c4b2-4ed2-992d-9aa3455c6742",
+                    "link": "/api/v1.1/game/748174/feed/live",
+                    "gameType": "S",
+                    "season": "2024",
+                    "gameDate": "2024-02-29T20:05:00Z",
+                    "officialDate": "2024-02-29",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "F",
+                        "detailedState": "Final",
+                        "statusCode": "F",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "F"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 5,
+                                "losses": 3,
+                                "pct": ".625"
+                            },
+                            "score": 10,
+                            "team": {
+                                "id": 115,
+                                "name": "Colorado Rockies",
+                                "link": "/api/v1/teams/115"
+                            },
+                            "isWinner": true,
+                            "splitSquad": false,
+                            "seriesNumber": 8
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 3,
+                                "losses": 3,
+                                "pct": ".500"
+                            },
+                            "score": 9,
+                            "team": {
+                                "id": 112,
+                                "name": "Chicago Cubs",
+                                "link": "/api/v1/teams/112"
+                            },
+                            "isWinner": false,
+                            "splitSquad": false,
+                            "seriesNumber": 7
+                        }
+                    },
+                    "venue": {
+                        "id": 4629,
+                        "name": "Sloan Park",
+                        "link": "/api/v1/venues/4629"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/748174/content"
+                    },
+                    "isTie": false,
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "Y",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-748174-2024-02-29",
+                    "seasonDisplay": "2024",
+                    "dayNight": "day",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 1,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Spring Training",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 748169,
+                    "gameGuid": "a991b7f1-ae0e-4bd8-b130-bac9e907e898",
+                    "link": "/api/v1.1/game/748169/feed/live",
+                    "gameType": "S",
+                    "season": "2024",
+                    "gameDate": "2024-02-29T20:05:00Z",
+                    "officialDate": "2024-02-29",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "F",
+                        "detailedState": "Final",
+                        "statusCode": "F",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "F"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 4,
+                                "losses": 4,
+                                "pct": ".500"
+                            },
+                            "score": 5,
+                            "team": {
+                                "id": 135,
+                                "name": "San Diego Padres",
+                                "link": "/api/v1/teams/135"
+                            },
+                            "isWinner": true,
+                            "splitSquad": false,
+                            "seriesNumber": 7
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 3,
+                                "losses": 3,
+                                "pct": ".500"
+                            },
+                            "score": 3,
+                            "team": {
+                                "id": 133,
+                                "name": "Oakland Athletics",
+                                "link": "/api/v1/teams/133"
+                            },
+                            "isWinner": false,
+                            "splitSquad": false,
+                            "seriesNumber": 6
+                        }
+                    },
+                    "venue": {
+                        "id": 2507,
+                        "name": "Hohokam Stadium",
+                        "link": "/api/v1/venues/2507"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/748169/content"
+                    },
+                    "isTie": false,
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "N",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-748169-2024-02-29",
+                    "seasonDisplay": "2024",
+                    "dayNight": "day",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 1,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Spring Training",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 748172,
+                    "gameGuid": "3cc64a63-59e8-41a7-b257-d10932ca8b8d",
+                    "link": "/api/v1.1/game/748172/feed/live",
+                    "gameType": "S",
+                    "season": "2024",
+                    "gameDate": "2024-02-29T20:05:00Z",
+                    "officialDate": "2024-02-29",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "F",
+                        "detailedState": "Final",
+                        "statusCode": "F",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "F"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 5,
+                                "losses": 3,
+                                "pct": ".625"
+                            },
+                            "score": 1,
+                            "team": {
+                                "id": 118,
+                                "name": "Kansas City Royals",
+                                "link": "/api/v1/teams/118"
+                            },
+                            "isWinner": false,
+                            "splitSquad": false,
+                            "seriesNumber": 7
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 3,
+                                "losses": 5,
+                                "pct": ".375"
+                            },
+                            "score": 6,
+                            "team": {
+                                "id": 145,
+                                "name": "Chicago White Sox",
+                                "link": "/api/v1/teams/145"
+                            },
+                            "isWinner": true,
+                            "splitSquad": true,
+                            "seriesNumber": 8
+                        }
+                    },
+                    "venue": {
+                        "id": 3809,
+                        "name": "Camelback Ranch",
+                        "link": "/api/v1/venues/3809"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/748172/content"
+                    },
+                    "isTie": false,
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "N",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-748172-2024-02-29",
+                    "seasonDisplay": "2024",
+                    "dayNight": "day",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 1,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Spring Training",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 748167,
+                    "gameGuid": "99a6ef3d-5162-4b31-8d2c-fde5bc034b7b",
+                    "link": "/api/v1.1/game/748167/feed/live",
+                    "gameType": "S",
+                    "season": "2024",
+                    "gameDate": "2024-02-29T20:05:00Z",
+                    "officialDate": "2024-02-29",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "F",
+                        "detailedState": "Final",
+                        "statusCode": "F",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "F"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 1,
+                                "losses": 5,
+                                "pct": ".167"
+                            },
+                            "score": 5,
+                            "team": {
+                                "id": 158,
+                                "name": "Milwaukee Brewers",
+                                "link": "/api/v1/teams/158"
+                            },
+                            "isWinner": false,
+                            "splitSquad": false,
+                            "seriesNumber": 6
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 5,
+                                "losses": 1,
+                                "pct": ".833"
+                            },
+                            "score": 7,
+                            "team": {
+                                "id": 140,
+                                "name": "Texas Rangers",
+                                "link": "/api/v1/teams/140"
+                            },
+                            "isWinner": true,
+                            "splitSquad": false,
+                            "seriesNumber": 6
+                        }
+                    },
+                    "venue": {
+                        "id": 2603,
+                        "name": "Surprise Stadium",
+                        "link": "/api/v1/venues/2603"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/748167/content"
+                    },
+                    "isTie": false,
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "N",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-748167-2024-02-29",
+                    "seasonDisplay": "2024",
+                    "dayNight": "day",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 1,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Spring Training",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 748173,
+                    "gameGuid": "6a3685cd-8289-42f7-8151-c42edea4b4f6",
+                    "link": "/api/v1.1/game/748173/feed/live",
+                    "gameType": "S",
+                    "season": "2024",
+                    "gameDate": "2024-02-29T20:10:00Z",
+                    "officialDate": "2024-02-29",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "F",
+                        "detailedState": "Final",
+                        "statusCode": "F",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "F"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 2,
+                                "losses": 4,
+                                "pct": ".333"
+                            },
+                            "score": 1,
+                            "team": {
+                                "id": 114,
+                                "name": "Cleveland Guardians",
+                                "link": "/api/v1/teams/114"
+                            },
+                            "isWinner": false,
+                            "splitSquad": false,
+                            "seriesNumber": 6
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 3,
+                                "losses": 3,
+                                "pct": ".500"
+                            },
+                            "score": 4,
+                            "team": {
+                                "id": 108,
+                                "name": "Los Angeles Angels",
+                                "link": "/api/v1/teams/108"
+                            },
+                            "isWinner": true,
+                            "splitSquad": false,
+                            "seriesNumber": 7
+                        }
+                    },
+                    "venue": {
+                        "id": 2500,
+                        "name": "Tempe Diablo Stadium",
+                        "link": "/api/v1/venues/2500"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/748173/content"
+                    },
+                    "isTie": false,
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "N",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-748173-2024-02-29",
+                    "seasonDisplay": "2024",
+                    "dayNight": "day",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 1,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Spring Training",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 748168,
+                    "gameGuid": "b13b6515-9d72-422a-8492-99f41a62485d",
+                    "link": "/api/v1.1/game/748168/feed/live",
+                    "gameType": "S",
+                    "season": "2024",
+                    "gameDate": "2024-02-29T20:10:00Z",
+                    "officialDate": "2024-02-29",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "F",
+                        "detailedState": "Final",
+                        "statusCode": "F",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "F"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 0,
+                                "losses": 4,
+                                "pct": ".000"
+                            },
+                            "score": 1,
+                            "team": {
+                                "id": 137,
+                                "name": "San Francisco Giants",
+                                "link": "/api/v1/teams/137"
+                            },
+                            "isWinner": false,
+                            "splitSquad": false,
+                            "seriesNumber": 6
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 4,
+                                "losses": 3,
+                                "pct": ".571"
+                            },
+                            "score": 2,
+                            "team": {
+                                "id": 109,
+                                "name": "Arizona Diamondbacks",
+                                "link": "/api/v1/teams/109"
+                            },
+                            "isWinner": true,
+                            "splitSquad": false,
+                            "seriesNumber": 6
+                        }
+                    },
+                    "venue": {
+                        "id": 4249,
+                        "name": "Salt River Fields at Talking Stick",
+                        "link": "/api/v1/venues/4249"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/748168/content"
+                    },
+                    "isTie": false,
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "E",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-748168-2024-02-29",
+                    "seasonDisplay": "2024",
+                    "dayNight": "day",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 1,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Spring Training",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 748170,
+                    "gameGuid": "3d0e878e-af61-4919-a083-176bbeaadb30",
+                    "link": "/api/v1.1/game/748170/feed/live",
+                    "gameType": "S",
+                    "season": "2024",
+                    "gameDate": "2024-02-29T20:10:00Z",
+                    "officialDate": "2024-02-29",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "F",
+                        "detailedState": "Final",
+                        "statusCode": "F",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "F"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 3,
+                                "losses": 5,
+                                "pct": ".375"
+                            },
+                            "score": 6,
+                            "team": {
+                                "id": 145,
+                                "name": "Chicago White Sox",
+                                "link": "/api/v1/teams/145"
+                            },
+                            "isWinner": true,
+                            "splitSquad": true,
+                            "seriesNumber": 7
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 1,
+                                "losses": 4,
+                                "pct": ".200"
+                            },
+                            "score": 5,
+                            "team": {
+                                "id": 136,
+                                "name": "Seattle Mariners",
+                                "link": "/api/v1/teams/136"
+                            },
+                            "isWinner": false,
+                            "splitSquad": false,
+                            "seriesNumber": 6
+                        }
+                    },
+                    "venue": {
+                        "id": 2530,
+                        "name": "Peoria Stadium",
+                        "link": "/api/v1/venues/2530"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/748170/content"
+                    },
+                    "isTie": false,
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "N",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-748170-2024-02-29",
+                    "seasonDisplay": "2024",
+                    "dayNight": "day",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 1,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Spring Training",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 748181,
+                    "gameGuid": "d84ed5d6-2032-4b25-94da-775f62fa9675",
+                    "link": "/api/v1.1/game/748181/feed/live",
+                    "gameType": "S",
+                    "season": "2024",
+                    "gameDate": "2024-02-29T23:05:00Z",
+                    "officialDate": "2024-02-29",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "F",
+                        "detailedState": "Final",
+                        "statusCode": "F",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "F"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 4,
+                                "losses": 2,
+                                "pct": ".667"
+                            },
+                            "score": 1,
+                            "team": {
+                                "id": 121,
+                                "name": "New York Mets",
+                                "link": "/api/v1/teams/121"
+                            },
+                            "isWinner": false,
+                            "splitSquad": false,
+                            "seriesNumber": 6
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 3,
+                                "losses": 4,
+                                "pct": ".429"
+                            },
+                            "score": 2,
+                            "team": {
+                                "id": 117,
+                                "name": "Houston Astros",
+                                "link": "/api/v1/teams/117"
+                            },
+                            "isWinner": true,
+                            "splitSquad": false,
+                            "seriesNumber": 7
+                        }
+                    },
+                    "venue": {
+                        "id": 5000,
+                        "name": "CACTI Park of the Palm Beaches",
+                        "link": "/api/v1/venues/5000"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/748181/content"
+                    },
+                    "isTie": false,
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "N",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-748181-2024-02-29",
+                    "seasonDisplay": "2024",
+                    "dayNight": "night",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 1,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Spring Training",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 748177,
+                    "gameGuid": "f91d3848-80d3-4acd-99c2-efcde8694d01",
+                    "link": "/api/v1.1/game/748177/feed/live",
+                    "gameType": "S",
+                    "season": "2024",
+                    "gameDate": "2024-02-29T23:35:00Z",
+                    "officialDate": "2024-02-29",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "F",
+                        "detailedState": "Final",
+                        "statusCode": "FT",
+                        "startTimeTBD": false,
+                        "reason": "Tied",
+                        "abstractGameCode": "F"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 1,
+                                "losses": 3,
+                                "pct": ".250"
+                            },
+                            "score": 0,
+                            "team": {
+                                "id": 146,
+                                "name": "Miami Marlins",
+                                "link": "/api/v1/teams/146"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 6
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 3,
+                                "losses": 2,
+                                "pct": ".600"
+                            },
+                            "score": 0,
+                            "team": {
+                                "id": 147,
+                                "name": "New York Yankees",
+                                "link": "/api/v1/teams/147"
+                            },
+                            "splitSquad": false,
+                            "seriesNumber": 6
+                        }
+                    },
+                    "venue": {
+                        "id": 2523,
+                        "name": "George M. Steinbrenner Field",
+                        "link": "/api/v1/venues/2523"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/748177/content"
+                    },
+                    "isTie": true,
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "E",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-748177-2024-02-29",
+                    "seasonDisplay": "2024",
+                    "dayNight": "night",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 1,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Spring Training",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                },
+                {
+                    "gamePk": 748171,
+                    "gameGuid": "8ebcabac-8f31-4fa6-93e4-f842374d4471",
+                    "link": "/api/v1.1/game/748171/feed/live",
+                    "gameType": "S",
+                    "season": "2024",
+                    "gameDate": "2024-03-01T01:05:00Z",
+                    "officialDate": "2024-02-29",
+                    "status": {
+                        "abstractGameState": "Final",
+                        "codedGameState": "F",
+                        "detailedState": "Final",
+                        "statusCode": "F",
+                        "startTimeTBD": false,
+                        "abstractGameCode": "F"
+                    },
+                    "teams": {
+                        "away": {
+                            "leagueRecord": {
+                                "wins": 5,
+                                "losses": 2,
+                                "pct": ".714"
+                            },
+                            "score": 4,
+                            "team": {
+                                "id": 119,
+                                "name": "Los Angeles Dodgers",
+                                "link": "/api/v1/teams/119"
+                            },
+                            "isWinner": false,
+                            "splitSquad": false,
+                            "seriesNumber": 7
+                        },
+                        "home": {
+                            "leagueRecord": {
+                                "wins": 4,
+                                "losses": 1,
+                                "pct": ".800"
+                            },
+                            "score": 5,
+                            "team": {
+                                "id": 113,
+                                "name": "Cincinnati Reds",
+                                "link": "/api/v1/teams/113"
+                            },
+                            "isWinner": true,
+                            "splitSquad": false,
+                            "seriesNumber": 6
+                        }
+                    },
+                    "venue": {
+                        "id": 3834,
+                        "name": "Goodyear Ballpark",
+                        "link": "/api/v1/venues/3834"
+                    },
+                    "content": {
+                        "link": "/api/v1/game/748171/content"
+                    },
+                    "isTie": false,
+                    "gameNumber": 1,
+                    "publicFacing": true,
+                    "doubleHeader": "N",
+                    "gamedayType": "N",
+                    "tiebreaker": "N",
+                    "calendarEventID": "14-748171-2024-02-29",
+                    "seasonDisplay": "2024",
+                    "dayNight": "night",
+                    "scheduledInnings": 9,
+                    "reverseHomeAwayStatus": false,
+                    "inningBreakLength": 120,
+                    "gamesInSeries": 1,
+                    "seriesGameNumber": 1,
+                    "seriesDescription": "Spring Training",
+                    "recordSource": "S",
+                    "ifNecessary": "N",
+                    "ifNecessaryDescription": "Normal Game"
+                }
+            ],
+            "events": []
+        }
+    ]
+}
