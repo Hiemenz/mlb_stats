@@ -29,7 +29,7 @@ To use this script, navigate to the script's directory and execute it with Pytho
 python mlb_data_processor.py
 ```
 
-Make sure to replace `mlb_data_processor.py` with the actual filename if it differs.
+Make sure to replace `mlb_data_processor.py` with the  actual filename if it differs.
 
 ## Configuration
 Before running the script, you may need to configure the following:
