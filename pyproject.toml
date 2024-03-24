@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mlb-stats"
+version = "0.1.0"
+description = ""
+authors = ["kah5161 <kah5161@rit.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pybaseball = "^2.2.7"
+mlb-statsapi = "^1.7.1"
+python-mlb-statsapi = "^0.5.16"
+sqlalchemy = "^2.0.27"
+psycopg2-binary = "^2.9.9"
+sshtunnel = "^0.4.0"
+paramiko = "^3.4.0"
+pyyaml = "^6.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
