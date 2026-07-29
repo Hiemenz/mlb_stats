@@ -97,8 +97,8 @@ def get_game_summary_data(start_date, end_date, insert_into_database=True):
 def get_game_summaries(game_id, insert_into_database=True):    
                 
     global game_summaries_list
-    url_endpoint = f'https://statsapi.mlb.com/api/v1.1/game/{game_id}/feed/live'
-    
+'
+'    
     data = fetch_and_handle_data(url_endpoint)
     if data:
         
@@ -690,7 +690,7 @@ def orchestrate():
 
     # start_date = datetime.date(2022,5,19)
     
-    start_date = datetime.date(2024, 3, 23)
+    start_date = datetime.date(2015, 3, 11)
 
     end_date = datetime.date(2015, 1, 1)
     current_date = start_date
@@ -705,13 +705,13 @@ def orchestrate():
                 for game in games_found:
                     
                     get_game_summaries(game)
-                    parse_linescore(game)
+                    # parse_linescore(game)
                     
-                    parse_box_score(game)
-                    try: 
-                        get_game_play_by_play_outcomes(game)
-                    except: 
-                        continue
+                    # parse_box_score(game)
+                    # try: 
+                    #     get_game_play_by_play_outcomes(game)
+                    # except: 
+                    #     continue
                 batch_generic_insert_mlb('landing_area.mlb_game_summary', game_summary_list)
                 batch_generic_insert_mlb('landing_area.game_summaries', game_summaries_list)
                 batch_generic_insert_mlb('landing_area.game_team_totals', game_total_list)
@@ -731,22 +731,22 @@ def orchestrate():
 
 
 
-                write_or_append_to_csv('csv/mlb_game_summary.csv', game_summary_list)
-                write_or_append_to_csv('csv/game_summaries.csv', game_summaries_list)
-                write_or_append_to_csv('csv/game_team_totals.csv', game_total_list)
-                write_or_append_to_csv('csv/game_inning.csv', inning_list)
-                write_or_append_to_csv('csv/team_game_batting_stats.csv', team_game_batting_stats_list)
-                write_or_append_to_csv('csv/team_game_pitching_stats.csv', team_game_pitching_stats_list)
-                write_or_append_to_csv('csv/team_game_fielding_stats.csv', team_game_fielding_stats_list)
-                write_or_append_to_csv('csv/game_player_info.csv', game_player_info_list)
-                write_or_append_to_csv('csv/player_game_batting_performance.csv', player_game_batting_performance_list)
-                write_or_append_to_csv('csv/player_game_pitching_performance.csv', player_game_pitching_performance_list)
-                write_or_append_to_csv('csv/player_game_fielding_performance.csv', player_game_fielding_performance_list)
-                write_or_append_to_csv('csv/game_day_player_season_stats_batting_performance.csv', player_season_stats_batting_list)
-                write_or_append_to_csv('csv/game_day_player_season_stats_pitching_performance.csv', player_season_stats_pitching_list)
-                write_or_append_to_csv('csv/game_day_player_season_stats_fielding_performance.csv', player_season_stats_fielding_list)
-                write_or_append_to_csv('csv/play_outcome.csv', play_outcome_list)
-                write_or_append_to_csv('csv/play_by_play.csv', play_by_play_list)
+                # write_or_append_to_csv('csv/mlb_game_summary.csv', game_summary_list)
+                # write_or_append_to_csv('csv/game_summaries.csv', game_summaries_list)
+                # write_or_append_to_csv('csv/game_team_totals.csv', game_total_list)
+                # write_or_append_to_csv('csv/game_inning.csv', inning_list)
+                # write_or_append_to_csv('csv/team_game_batting_stats.csv', team_game_batting_stats_list)
+                # write_or_append_to_csv('csv/team_game_pitching_stats.csv', team_game_pitching_stats_list)
+                # write_or_append_to_csv('csv/team_game_fielding_stats.csv', team_game_fielding_stats_list)
+                # write_or_append_to_csv('csv/game_player_info.csv', game_player_info_list)
+                # write_or_append_to_csv('csv/player_game_batting_performance.csv', player_game_batting_performance_list)
+                # write_or_append_to_csv('csv/player_game_pitching_performance.csv', player_game_pitching_performance_list)
+                # write_or_append_to_csv('csv/player_game_fielding_performance.csv', player_game_fielding_performance_list)
+                # write_or_append_to_csv('csv/game_day_player_season_stats_batting_performance.csv', player_season_stats_batting_list)
+                # write_or_append_to_csv('csv/game_day_player_season_stats_pitching_performance.csv', player_season_stats_pitching_list)
+                # write_or_append_to_csv('csv/game_day_player_season_stats_fielding_performance.csv', player_season_stats_fielding_list)
+                # write_or_append_to_csv('csv/play_outcome.csv', play_outcome_list)
+                # write_or_append_to_csv('csv/play_by_play.csv', play_by_play_list)
 
                 break
             except Exception as e:

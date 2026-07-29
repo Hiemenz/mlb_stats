@@ -1,5 +1,6 @@
 CREATE TABLE landing_area.game_summaries (
-    game_id BIGINT PRIMARY KEY,
+    game_summaries_sk SERIAL PRIMARY KEY,
+    game_id BIGINT,
     game_type CHAR(10),
     game_double_header CHAR(10),
     game_identifier VARCHAR(255),
